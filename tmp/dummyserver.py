@@ -1,9 +1,13 @@
+"""SEND DUMMY INFO FOR EVER
+Just use for tests.
+"""
+import json
 import threading
 import time
 
 import numpy as np
 from SimpleWebSocketServer import SimpleWebSocketServer, WebSocket
-import json
+
 listeners = []
 
 
@@ -26,8 +30,8 @@ def run():
     while True:
         data = {
             'epoch': epoch,
-            'loss': (np.sin(epoch / 10)),
-            'val_loss': (np.cos(epoch / 10))
+            'logs': {'loss': (np.sin(epoch / 10)),
+                     'val_loss': (np.cos(epoch / 10))}
         }
         print("SEND", data)
         for ws in server.connections.values():
