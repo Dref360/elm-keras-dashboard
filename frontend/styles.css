@@ -1,0 +1,46 @@
+.container {
+    margin: 1em auto;
+    max-width: 600px;
+}
+.left {
+    float:left;
+    width:300px;
+}
+.head {
+  width: 100%;
+  background: #acb6ae;
+}
+.header {
+    overflow: hidden;
+    background-color: #acb6ae;
+    padding: 20px 10px
+}
+.center {
+    display: inline-block;
+    margin:0 auto;
+}
+
+.rounded {
+    border-radius: 25px;
+    background: #acb6ae;
+    padding: 20px;
+}
+
+
+.right {
+    float:right;
+    width:300px;
+}
+blockquote {
+    margin: 1em 0;
+}
+.jumbotron {
+    margin: 2em auto;
+    max-width: 400px;
+}
+.jumbotron h2 {
+    margin-top: 0;
+}
+.jumbotron .help-block {
+    font-size: 14px;
+}
