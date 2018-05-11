@@ -2,7 +2,7 @@
 .idea
 elm-stuff
 index.html
-__pycache__
+__pycache__/
 dist/
 # Logs
 logs
