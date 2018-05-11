@@ -1,7 +1,7 @@
 .git
 .idea
 elm-stuff
-index.html
+#index.html
 __pycache__/
 dist/
 # Logs
