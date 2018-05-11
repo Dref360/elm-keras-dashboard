@@ -23,7 +23,7 @@ npm install
 gulp
 ```
 
-The webpage is now accessible!
+The webpage is now accessible! (This image has been taken on May 11 so it may differ from the actual view)
 ![](.readme/keras_dashboard.png)
 
 
